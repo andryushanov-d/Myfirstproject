@@ -191,10 +191,6 @@ margin: 0px;
 background-color: #EEEEEE;
 }
 
-footer {
-background: #333333;
-
-}
 
 .foot_msg {
 
@@ -205,12 +201,19 @@ font-weight: normal;
 font-size: 18px;
 line-height: 21px;
 text-align: center;
-margin-left: 285px;
-margin-right: 284px;
 color: #FFFFFF;
+max-width: 540px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hero3 {
 padding-top: 48px;
 padding-bottom: 64px;
-max-width: 540px;
+background-color: #333333;
+background-size: cover;
+background-position: center center;
+color: #fff;
 }
 
 
