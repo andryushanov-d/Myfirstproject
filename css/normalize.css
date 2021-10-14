@@ -80,9 +80,9 @@ li {
   clear: both;
   padding-top: 160px;
   padding-bottom: 160px;
-  background-image:url('E:/FrontEnd/2021/Myfirstproject/myfirstproject/img/Background1.png');
+  background-image:url('../img/Background1.png');
   background-size: cover;
-  background-position: center center;
+  background-position: center center;'..
   color: #fff;
 }
 
@@ -130,7 +130,7 @@ color: #FFFFFF;
 .hero2 {
 padding-top: 128px;
 padding-bottom: 128px;
-background-image:url('E:/FrontEnd/2021/Myfirstproject/myfirstproject/img/Background2.png');
+background-image:url('../img/Background2.png');
 background-size: cover;
 background-position: center center;
 color: #fff;
