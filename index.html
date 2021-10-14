@@ -6,23 +6,26 @@
 	<link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-		<header>
-				<div class="header">
-					<div class="logo">
-						<a href="#TopPage"><img src="img/logo.svg"></a>
+		<header class="stick">
+				<div>
+					<div class="header">
+						<div class="logo">
+							<a href="#TopPage"><img src="img/logo.svg"></a>
+						</div>
+							<nav>
+								<ul>
+									<li><a href="#Prob">the problem</a></li>
+									<li class="slash">|</li>
+									<li><a href="#Coin">PiedPiperCoin</a></li>
+									<li class="slash">|</li>
+									<li><a href="#Team">the team</a></li>
+								</ul>
+							</nav>	
 					</div>
-						<nav>
-							<ul>
-								<li><a href="#prob">the problem</a></li>
-								<li class="slash">|</li>
-								<li><a href="#Coin">PiedPiperCoin</a></li>
-								<li class="slash">|</li>
-								<li><a href="#Team">the team</a></li>
-							</ul>
-						</nav>	
-				</div>
+				</div>	
 		</header>
 	<div>
+		<div id=TopPage></div>
 		<div class="hero">
 			<div class="container">
 				<div class="hero_msg">
@@ -30,7 +33,8 @@
 				</div>
 			</div>
 		</div>
-			<h1 id="prob" class="container">The Problem</h1>
+			<div id="Prob" ></div>
+			<h1 class="container">The Problem</h1>
 				<div class="container">
 					<p>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.</p>
 					<p>What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom.</p>
@@ -45,7 +49,8 @@
 	    		</div>
 	 		</div>
 		</section>
-			<h1 id="Coin" class="container">Introducing PiedPiperCoin</h1>
+			<div id="Coin"></div>
+			<h1 class="container">Introducing PiedPiperCoin</h1>
 				<div class="container">
 					<div class="img">
 						<img src="img/PPC Logo.png" alt="Not Found">
@@ -57,7 +62,8 @@
 					<p>Whether you're a developer with an app ready for market, or just an Average Joe with a smartphone you'll love all you can do with PiedPiperCoin.</p>
 				</div>
 		<div class="back2">
-			<h1 id="Team" class="container">The Team</h1>
+			<div id="Team"></div>
+			<h1 class="container">The Team</h1>
 				<div class="container">
 					<div class="team_mem_side">
 						<figure>
@@ -112,6 +118,11 @@
 		</div>
 	</div>
 	<footer>
+		<div class="container">
+			<div class="foot_msg">
+				All other trademarks and copyrights are the property of their respective owners. Use of these names, trademarks and brands does not imply endorsement.
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
