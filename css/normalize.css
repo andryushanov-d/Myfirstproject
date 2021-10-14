@@ -12,6 +12,16 @@ body {
   padding-right: 55px;
 }
 
+.stick {
+  position: sticky;
+  top: 0;
+}
+
+#Prob, #Coin, #Team, #TopPage {
+  position: absolute;
+  margin-top: -84px;
+}
+
 .header {
   background-color: rgb(0, 119, 101);
   padding-bottom: 84px;
@@ -175,14 +185,33 @@ width: 350px;
 height: 283px;
 padding: 0px 25px;
 margin: 0px;
-
-
 }
 
 .back2 {
 background-color: #EEEEEE;
 }
 
+footer {
+background: #333333;
+
+}
+
+.foot_msg {
+
+box-sizing: border-box;
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+margin-left: 285px;
+margin-right: 284px;
+color: #FFFFFF;
+padding-top: 48px;
+padding-bottom: 64px;
+max-width: 540px;
+}
 
 
 
